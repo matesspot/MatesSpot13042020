@@ -1,0 +1,2 @@
+rootProject.name='Mates Spot'
+include ':app'

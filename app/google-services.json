@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620783789068",
+    "firebase_url": "https://mates-spot-2f029.firebaseio.com",
+    "project_id": "mates-spot-2f029",
+    "storage_bucket": "mates-spot-2f029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620783789068:android:c81ee856c43ffc2a573a29",
+        "android_client_info": {
+          "package_name": "com.visuotech.matesspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620783789068-vh56bhn4i7mljbbli8ekqfdtauhafm4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.visuotech.matesspot",
+            "certificate_hash": "421cd4d8b26cd6a3c4e46fdc00534e318670f589"
+          }
+        },
+        {
+          "client_id": "620783789068-r6j4gggkak12ggmi81hnsa5hsosk7qe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxMqdRlYtsp1oc-101vMHDdkzYg-Rj1-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620783789068-r6j4gggkak12ggmi81hnsa5hsosk7qe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
