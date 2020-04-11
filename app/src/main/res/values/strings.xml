@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">Mates Spot</string>
+
+
+    <string name="title_home">Shop</string>
+    <string name="title_chat">Gifts</string>
+    <string name="title_profile">Cart</string>
+    <string name="title_Active">Profile</string>
+
+
+    <string-array name="Countryname">
+
+        <item>Country</item>
+        <item>India</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Nepal</item>
+        <item>Shree Lanka</item>
+        <item>Span</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>America</item>
+        <item>Afganistan</item>
+        <item>Poland</item>
+        <item>Britain</item>
+        <item>Norvey</item>
+        <item>Netherland</item>
+        <item>Singapore</item>
+    </string-array>
+
+
+    <string-array name="Age_Range">
+
+        <item>Age</item>
+        <item>5-10 Years</item>
+        <item>10-15 Years</item>
+        <item>15-20 Years</item>
+        <item>20-25 Years</item>
+        <item>25-30 Years</item>
+        <item>30-35 Years</item>
+        <item>35-40 Years</item>
+        <item>40-50 Years</item>
+
+    </string-array>
+
+    <string-array name="Gender">
+
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
 </resources>

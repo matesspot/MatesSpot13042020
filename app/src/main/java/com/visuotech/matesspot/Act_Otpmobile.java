@@ -14,7 +14,7 @@ public class Act_Otpmobile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_act__otpmobile);
+        setContentView(R.layout.act_optmobile);
 
         editTextMobile = findViewById(R.id.editTextMobile);
 

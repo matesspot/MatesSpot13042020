@@ -11,11 +11,9 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.TaskExecutors;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
@@ -35,7 +33,7 @@ public class Act_VerifyPhone extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_act__verify_phone);
+        setContentView(R.layout.act_verify_phone);
 
         //initializing objects
         mAuth = FirebaseAuth.getInstance();
@@ -135,14 +133,13 @@ public class Act_VerifyPhone extends AppCompatActivity {
 
                         } else {
 
-                            //verification unsuccessful.. display an error message
-
-                            String message = "Somthing is wrong, we will fix it soon...";
-
-                            if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
-                                message = "Invalid code entered...";
-                            }
-
+//                            //verification unsuccessful.. display an error message
+//
+//                            String message = "Somthing is wrong, we will fix it soon...";
+//
+//                            if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
+//                                message = "Invalid code entered...";
+//                            }
                             Toast.makeText(Act_VerifyPhone.this, "Invalid OTP", Toast.LENGTH_SHORT).show();
 
                         }
