@@ -129,7 +129,7 @@ public class Act_VerifyPhone extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             //verification successful we will start the profile activity
-                            Intent intent = new Intent(Act_VerifyPhone.this, ProfileActivity.class);
+                            Intent intent = new Intent(Act_VerifyPhone.this, Act_Signup.class);
                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
 
@@ -143,14 +143,8 @@ public class Act_VerifyPhone extends AppCompatActivity {
                                 message = "Invalid code entered...";
                             }
 
-                            Snackbar snackbar = Snackbar.make(findViewById(R.id.parent), message, Snackbar.LENGTH_LONG);
-                            snackbar.setAction("Dismiss", new View.OnClickListener() {
-                                @Override
-                                public void onClick(View v) {
+                            Toast.makeText(Act_VerifyPhone.this, "Invalid OTP", Toast.LENGTH_SHORT).show();
 
-                                }
-                            });
-                            snackbar.show();
                         }
                     }
                 });
